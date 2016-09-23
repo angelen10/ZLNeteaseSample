@@ -18,6 +18,7 @@ static NSString *const kReuseIdentifier = @"GameTableViewCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"ZLGameTableViewController -->viewDidLoad");
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
 }
 

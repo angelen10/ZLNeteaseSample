@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4042C6851D94DBA4008ED7B1 /* ZLGameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042C6841D94DBA4008ED7B1 /* ZLGameTableViewController.m */; };
+		4042C6881D9519C6008ED7B1 /* ZLTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042C6871D9519C6008ED7B1 /* ZLTitleLabel.m */; };
 		404AA79E1D8FCF5C00EC99B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404AA79D1D8FCF5C00EC99B4 /* main.m */; };
 		404AA7A11D8FCF5C00EC99B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 404AA7A01D8FCF5C00EC99B4 /* AppDelegate.m */; };
 		404AA7A91D8FCF5C00EC99B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404AA7A81D8FCF5C00EC99B4 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		4042C6831D94DBA4008ED7B1 /* ZLGameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLGameTableViewController.h; sourceTree = "<group>"; };
 		4042C6841D94DBA4008ED7B1 /* ZLGameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLGameTableViewController.m; sourceTree = "<group>"; };
+		4042C6861D9519C6008ED7B1 /* ZLTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTitleLabel.h; sourceTree = "<group>"; };
+		4042C6871D9519C6008ED7B1 /* ZLTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTitleLabel.m; sourceTree = "<group>"; };
 		404AA7991D8FCF5C00EC99B4 /* ZLNeteaseSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLNeteaseSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		404AA79D1D8FCF5C00EC99B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		404AA79F1D8FCF5C00EC99B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				404AA79C1D8FCF5C00EC99B4 /* Supporting Files */,
 				4042C6831D94DBA4008ED7B1 /* ZLGameTableViewController.h */,
 				4042C6841D94DBA4008ED7B1 /* ZLGameTableViewController.m */,
+				4042C6861D9519C6008ED7B1 /* ZLTitleLabel.h */,
+				4042C6871D9519C6008ED7B1 /* ZLTitleLabel.m */,
 			);
 			path = ZLNeteaseSample;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4042C6881D9519C6008ED7B1 /* ZLTitleLabel.m in Sources */,
 				404AA7A11D8FCF5C00EC99B4 /* AppDelegate.m in Sources */,
 				4042C6851D94DBA4008ED7B1 /* ZLGameTableViewController.m in Sources */,
 				404AA79E1D8FCF5C00EC99B4 /* main.m in Sources */,
